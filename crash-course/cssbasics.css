@@ -1,0 +1,42 @@
+h1 {
+    color:red;
+}
+
+li {
+    color:rgb(204, 118, 7);
+}
+
+/* or p.inside */
+.inside { 
+    color: green;
+    font-family: Consolas;
+    font-size: 20px;
+}
+/* CLASS => GROUP OF ELEMENTS, START WITH . */
+
+/* or p#out */
+#out {
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+}
+/* ID => UNIQUE, START WITH # */
+
+h4 {
+    color: rgba(100,100,0,0.5)
+}
+
+body {
+    background-color: lightgrey;
+}
+
+div {
+    background-color: white;
+    border-width: thick;
+    border-style: solid;
+}
+
+span {
+    background-color: black;
+    color: white;
+}

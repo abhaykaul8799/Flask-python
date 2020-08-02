@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics of forms 2</title>
+</head>
+<body>
+    <form method="get">
+        <h3>Do you have a dog?</h3>
+        <label for="yes">Yes:</label>
+        <input type="radio" name="dogChoice" id="yes">
+        <br>
+        <label for="no">No:</label>
+        <input type="radio" id="no" name="dogChoice" checked="true">
+
+        <p>How clean is your house?</p>
+        <select name="clean" id="houseClean">
+            <option value="Great">3</option>
+            <option value="Good">2</option>
+            <option value="Bad">1</option>
+        </select>
+
+        <p> Any other comments?</p>
+        <textarea name="comments" rows="4" cols="20"></textarea>
+        <br>
+        <input type="submit" value="Submit feedback">
+    </form>
+</body>
+</html>

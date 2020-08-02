@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h1> Welcome to the sign-up page!</h1>
+<p> Please fill out the form below: </p>
+
+<form action="{{ url_for('thank_you') }}">
+    <table>
+        <tr>
+            <td>Name: </td>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td>
+                <input type="submit" value="Submit Form">
+            </td>
+        </tr>
+    </table>
+</form>
+
+{% endblock content %}

@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+
+    <h1 class="display-4">You are in the {{name | capitalize}} section!</h1>
+    <a href=" {{ url_for('static',filename='dog.jpg') }}"> Click here to see the pug</a>
+{% endblock %}
