@@ -1,4 +1,4 @@
-## Course for learning the framework Flask ( Python ).
+## Course for learning the framework Flask ( Python )
 
 ### This repository includes the following segments:
 1. Crash Course on HTML, CSS and BOOTSTRAP.
